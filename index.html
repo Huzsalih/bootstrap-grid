@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Grid</title>
+  <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+  <style>
+    .yellow-box, .gray-box {
+      text-align: center;
+      padding: 20px; /* Box size consistency */
+      font-weight: bold;
+      border: 1px solid #ddd;
+    }
+    .yellow-box {
+      background-color: #ffc107; /* Yellow color */
+      color: black;
+      width: 20px;
+    }
+    .gray-box {
+      background-color: #e9ecef; /* Gray color */
+      color: black;
+      
+    }
+    .row-spacing {
+      margin-bottom: 20px; /* Vertical spacing between rows */
+    }
+    .col-spacing {
+      margin-right: 20px; /* Horizontal spacing between columns */
+    }
+    .last-col-spacing {
+      margin-right: 0; /* Ensure the last column aligns perfectly */
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <!-- Row 1: Yellow Boxes (12 boxes) -->
+    <div class="row row-spacing">
+      <div class="col-sm yellow-box col-spacing">1</div>
+      <div class="col-sm yellow-box col-spacing">1</div>
+      <div class="col-sm yellow-box col-spacing">1</div>
+      <div class="col-sm yellow-box col-spacing">1</div>
+      <div class="col-sm yellow-box col-spacing">1</div>
+      <div class="col-sm yellow-box col-spacing">1</div>
+      <div class="col-sm yellow-box col-spacing">1</div>
+      <div class="col-sm yellow-box col-spacing">1</div>
+      <div class="col-sm yellow-box col-spacing">1</div>
+      <div class="col-sm yellow-box col-spacing">1</div>
+      <div class="col-sm yellow-box col-spacing">1</div>
+      <div class="col-sm yellow-box last-col-spacing">1</div>
+    </div>
+
+    <!-- Row 2: Gray Boxes (6 boxes) -->
+    <div class="row row-spacing">
+      <div class="col-sm gray-box  col-spacing">2</div>
+      <div class="col-sm gray-box  col-spacing">2</div>
+      <div class="col-sm gray-box  col-spacing">2</div>
+      <div class="col-sm gray-box  col-spacing">2</div>
+      <div class="col-sm gray-box  col-spacing">2</div>
+      <div class="col-sm gray-box  col-spacing">2</div>
+    </div>
+
+    <!-- Row 3: Gray Boxes (4 boxes) -->
+    <div class="row row-spacing">
+      <div class="col-sm gray-box  col-spacing">3</div>
+      <div class="col-sm gray-box  col-spacing">3</div>
+      <div class="col-sm gray-box  col-spacing">3</div>
+      <div class="col-sm gray-box  col-spacing">3</div>
+    </div>
+
+    <!-- Row 4: Gray Boxes (3 boxes) -->
+    <div class="row row-spacing">
+      <div class="col-sm gray-box  col-spacing">4</div>
+      <div class="col-sm gray-box  col-spacing">4</div>
+      <div class="col-sm gray-box  col-spacing">4</div>
+    </div>
+
+    <!-- Row 5: Gray Boxes (2 boxes) -->
+    <div class="row row-spacing">
+      <div class="col-sm gray-box  col-spacing">6</div>
+      <div class="col-sm gray-box  col-spacing">6</div>
+    </div>
+  </div>
+</body>
+</html>
